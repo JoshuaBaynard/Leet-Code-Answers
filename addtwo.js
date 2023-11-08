@@ -1,3 +1,4 @@
+// Not the best solution, but the solution I went with
 var addTwoNumbers = function (l1, l2) {
     var myNode = new ListNode(null, null);
     var ans = (reverseNum(l1) + reverseNum(l2));

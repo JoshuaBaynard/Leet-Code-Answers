@@ -6,7 +6,6 @@
 var topKFrequent = function(nums, k) {
     var arr = [...new Set(nums.sort((a, b) => {
         if (a < b) {
-            console.log(a)
             return a
         }
         else return b
